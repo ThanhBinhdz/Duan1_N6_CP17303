@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:hint="Thông Tin"
+        android:textStyle="bold"
         android:paddingLeft="20dp"
         android:paddingRight="20dp">
 
