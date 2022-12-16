@@ -23,7 +23,6 @@
         android:layout_height="match_parent"
         android:dividerHeight="10.0sp"
         android:id="@+id/lv_hoadon"
-        android:stackFromBottom="true"
-        android:transcriptMode="normal"/>
+  />
 
 </LinearLayout>
