@@ -23,6 +23,7 @@ import com.example.duan1_n6_cp17303.DAO_N6_CP17303.SanPhamDAO;
 import com.example.duan1_n6_cp17303.DTO_N6_CP17303.HoaDonDTO;
 import com.example.duan1_n6_cp17303.R;
 
+import java.util.Collections;
 import java.util.List;
 
 
@@ -62,6 +63,7 @@ public class FragmentHoaDon extends Fragment {
         list = hoaDonDAO.gethoadonkh(user);
         adapter = new HoaDonAdapter(list, getContext());
         lv_hd.setAdapter(adapter);
+        Collections.reverse(list);
         adapter.notifyDataSetChanged();
     }
 }
